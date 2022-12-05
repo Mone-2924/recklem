@@ -69,11 +69,12 @@ li{
     margin-right: 28px;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
 }
-.constructor{
+.constructor-icon{
     padding: 12px 30px;
     background-color: #ffffff;
     box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    display: inline-block;
 }
 .con-icon{
     margin-left: 10px;
@@ -88,12 +89,17 @@ li{
     background-position: 50% 100%;
     margin-bottom: 140px;
 }
-.main-title{
+.title{
     font-size: 36px;
     font-weight: 600;
 }
 .line-text{
     background-image: url(../img/line-text.png);
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+}
+.line-text-dark{
+    background-image: url(../img/line-dark.png);
     background-repeat: repeat-x;
     background-position: 0 100%;
 }
@@ -103,8 +109,6 @@ li{
     margin-bottom: 100px;
 }
 .branding-title{
-    font-size: 36px;
-    font-weight: 600;
     margin-bottom: 44px;
 }
 .branding-info{
@@ -128,6 +132,9 @@ li{
 }
 .branding-img{
     max-width: 480px;
+}
+.advantage-block{
+    margin-bottom: 160px;
 }
 .advantage-col{
     width: 192px;
@@ -153,4 +160,31 @@ li{
 }
 .advantage-col p{
     color: #B3B3B3;
+}
+.constructor-green{
+    max-width: 907px;
+    margin: 0 0 0 auto;
+    position: relative;
+    background-color: #10BB87;
+    background-image: url(../img/pattern.png);
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    border-radius: 28px 0 0 0;
+    padding: 50px 0 50px 11%;
+}
+.constructor-img{
+   position: absolute;
+    left: -43%;
+    bottom: -47%;
+}
+.constructor-info{
+    max-width: 352px;
+}
+.constructor-info h2{
+    color: #fff;
+    margin-bottom: 44px;
+}
+.constructor-info p{
+    color: #487B6C;
+    margin-bottom: 28px;
 }
