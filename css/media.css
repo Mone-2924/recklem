@@ -4,6 +4,9 @@
     }
 }
 @media screen and (max-width: 1100px){
+    .container-inner{
+        max-width: 85%;
+    }
     .item{
         margin-right: 15px;
     }
@@ -12,9 +15,6 @@
     }
 }
 @media screen and (max-width: 1100px){
-    .container-inner{
-        max-width: 80%;
-    }
     .row{
         align-items: center;
     }
@@ -28,14 +28,11 @@
     .nav-butons{
         display: none;
     }
-    .main-block {
-        padding: 10% 0 20%;
-    }
     .branding-info{
-        max-width: 50%;
+        max-width: 45%;
     }
     .branding-img{
-        max-width: 45%;
+        max-width: 50%;
     }
 }
 @media screen and (max-width: 800px){
@@ -46,17 +43,26 @@
         display: none;
     }
 }
-@media screen and (max-width: 700px){
-    .main-title{
-        font-size: 28px;
+@media screen and (max-width: 650px){
+    .main-title,
+    .branding-title{
+        font-size: 30px;
+        margin-bottom: 44px;
+    }
+    .main-block{
+        padding: 10% 0 15%;
     }
 }
 @media screen and (max-width: 500px){
-    .main-title{
-        font-size: 24px;
-        margin-bottom: 20px;
+    .main-title,
+    .branding-title{
+        font-size: 26px;
+    }
+    .main-info{
+        font-size: 12px;
     }
 }
+
 @media screen and (max-width: 440px){
     .menu{
         display: none;
@@ -64,10 +70,11 @@
     .logo{
         margin-bottom: 0;
     }
-    .main-title{
-        font-size: 21px;
+    .main-title,
+    .branding-title{
+        font-size: 24px;
     }
     .main-info{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
